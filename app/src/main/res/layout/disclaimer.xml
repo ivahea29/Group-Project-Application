@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/disclaimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISCLAIMER"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <TextView
+        android:id="@+id/disclaimer_text"
+        android:layout_width="330dp"
+        android:layout_height="310dp"
+        android:text="The Drug Expiry Checking app is a Prototype version for Nurses at Angelsea Hospital. It is intended that the app would provide insights into the use of a mobile automative system that supports Nurses and Staff at Angelsea Hospital, but in no way reflects the actual work-flow process. Systems change accordingly making older versions redundant – Angelsea and Wintec | Te Pukenga take no responsibility of outdated information displayed on the app. Upon accepting usage of the app assures that you understand these conditions."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disclaimer"
+        app:layout_constraintVertical_bias=".5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
